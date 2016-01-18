@@ -85,30 +85,30 @@
         <framework src="libz.dylib" />
         <framework src="libsqlite3.0.dylib" />
 
-        <!-- Channels -->
-        <!-- Alipay -->
-        <resource-file src="libs/ios/Channels/Alipay/AlipaySDK.bundle"/>
-        <framework src="libs/ios/Channels/Alipay/AlipaySDK.framework" custom="true"/>
-        <source-file src="libs/ios/Channels/Alipay/libpingpp+alipay.a" framework="true"/>
+        <!--&lt;!&ndash; Channels &ndash;&gt;-->
+        <!--&lt;!&ndash; Alipay &ndash;&gt;-->
+        <!--<resource-file src="libs/ios/Channels/Alipay/AlipaySDK.bundle"/>-->
+        <!--<framework src="libs/ios/Channels/Alipay/AlipaySDK.framework" custom="true"/>-->
+        <!--<source-file src="libs/ios/Channels/Alipay/libpingpp+alipay.a" framework="true"/>-->
 
-        <!-- wx -->
-        <source-file src="libs/ios/Channels/Wx/libpingpp+wx.a" framework="true"/>
-        <source-file src="libs/ios/Channels/Wx/libWeChatSDK.a" framework="true"/>
-        <header-file src="libs/ios/Channels/Wx/WXApi.h" />
-        <header-file src="libs/ios/Channels/Wx/WXApiObject.h" />
+        <!--&lt;!&ndash; wx &ndash;&gt;-->
+        <!--<source-file src="libs/ios/Channels/Wx/libpingpp+wx.a" framework="true"/>-->
+        <!--<source-file src="libs/ios/Channels/Wx/libWeChatSDK.a" framework="true"/>-->
+        <!--<header-file src="libs/ios/Channels/Wx/WXApi.h" />-->
+        <!--<header-file src="libs/ios/Channels/Wx/WXApiObject.h" />-->
 
-        <!-- UnionPay -->
-        <source-file src="libs/ios/Channels/UnionPay/libpingpp+up.a" framework="true"/>
-        <source-file src="libs/ios/Channels/UnionPay/libUPPayPlugin.a" framework="true"/>
+        <!--&lt;!&ndash; UnionPay &ndash;&gt;-->
+        <!--<source-file src="libs/ios/Channels/UnionPay/libpingpp+up.a" framework="true"/>-->
+        <!--<source-file src="libs/ios/Channels/UnionPay/libUPPayPlugin.a" framework="true"/>-->
 
-        <!-- ApplePay -->
-        <source-file src="libs/ios/Channels/ApplePay/libpingpp+applepay.a" framework="true"/>
-        <header-file src="libs/ios/Channels/ApplePay/Pingpp+ApplePay.h" />
+        <!--&lt;!&ndash; ApplePay &ndash;&gt;-->
+        <!--<source-file src="libs/ios/Channels/ApplePay/libpingpp+applepay.a" framework="true"/>-->
+        <!--<header-file src="libs/ios/Channels/ApplePay/Pingpp+ApplePay.h" />-->
 
-        <!-- pingxx -->
-        <resource-file src="libs/ios/Pingpp.bundle"/>
-        <source-file src="libs/ios/libpingpp.a" framework="true"/>
-        <header-file src="libs/ios/Pingpp.h"/>
+        <!--&lt;!&ndash; pingxx &ndash;&gt;-->
+        <!--<resource-file src="libs/ios/Pingpp.bundle"/>-->
+        <!--<source-file src="libs/ios/libpingpp.a" framework="true"/>-->
+        <!--<header-file src="libs/ios/Pingpp.h"/>-->
 
         <config-file target="*-Info.plist" parent="CFBundleURLTypes">
             <array>
