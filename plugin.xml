@@ -52,10 +52,10 @@
                     android:name="com.pingplusplus.android.PaymentActivity"
                     android:launchMode="singleTop"
                     android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
-            <activity-alias
+            <!-- <activity-alias
                     android:name=".wxapi.WXPayEntryActivity"
                     android:exported="true"
-                    android:targetActivity="com.pingplusplus.android.PaymentActivity"/>
+                    android:targetActivity="com.pingplusplus.android.PaymentActivity"/> -->
             <activity
                     android:name="com.alipay.sdk.app.H5PayActivity"
                     android:configChanges="orientation|keyboardHidden|navigation"
@@ -72,7 +72,7 @@
         <source-file src="libs/android/alipaysdk.jar" target-dir="libs" framework="true"/>
         <source-file src="libs/android/alipaysecsdk.jar" target-dir="libs" framework="true"/>
         <source-file src="libs/android/alipayutdid.jar" target-dir="libs" framework="true"/>
-        <source-file src="libs/android/libammsdk.jar" target-dir="libs" framework="true"/>
+        <!-- <source-file src="libs/android/libammsdk.jar" target-dir="libs" framework="true"/> -->
         <source-file src="libs/android/libpingpp.jar" target-dir="libs" framework="true"/>
         <source-file src="libs/android/UPPayAssistEx.jar" target-dir="libs" framework="true"/>
     </platform>
@@ -95,10 +95,10 @@
         <source-file src="libs/ios/Channels/Alipay/libpingpp+alipay.a" framework="true"/>
 
         <!-- wx -->
-        <source-file src="libs/ios/Channels/Wx/libpingpp+wx.a" framework="true"/>
+        <!-- <source-file src="libs/ios/Channels/Wx/libpingpp+wx.a" framework="true"/>
         <source-file src="libs/ios/Channels/Wx/libWeChatSDK.a" framework="true"/>
         <header-file src="libs/ios/Channels/Wx/WXApi.h"/>
-        <header-file src="libs/ios/Channels/Wx/WXApiObject.h"/>
+        <header-file src="libs/ios/Channels/Wx/WXApiObject.h"/> -->
 
         <!-- UnionPay -->
         <source-file src="libs/ios/Channels/UnionPay/libpingpp+up.a" framework="true"/>
